@@ -599,7 +599,6 @@ export default function Home() {
                   <Field
                     label="Full name (as per NMC)"
                     error={form.formState.errors.name?.message}
-                    className="span-2"
                   >
                     <input
                       {...form.register("name")}
@@ -619,7 +618,6 @@ export default function Home() {
                   <Field
                     label="Institute / hospital"
                     error={form.formState.errors.institute?.message}
-                    className="span-2"
                   >
                     <input
                       {...form.register("institute")}
